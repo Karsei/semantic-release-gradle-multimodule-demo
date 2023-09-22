@@ -27,5 +27,7 @@ jobs:
     - run: npm ci
     - name: Release
       env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         MODULE_NAME: test-api
-      run: npx semantic-release@18 --no-ci --dry-run false
+      run: |
+        npx semantic-release@18 --no-ci --dry-run false
