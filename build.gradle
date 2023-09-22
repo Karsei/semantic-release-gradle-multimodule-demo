@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group = 'kr.pe.karsei'
+
+task showVersion {
+    doLast {
+        println("Project Version: ${version}")
+    }
+}
+build.finalizedBy(showVersion)
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
