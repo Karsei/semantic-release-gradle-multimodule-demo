@@ -28,4 +28,4 @@ jobs:
     - name: Release
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      run: npx semantic-release@18
+      run: npx semantic-release@18 --no-ci --dry-run false

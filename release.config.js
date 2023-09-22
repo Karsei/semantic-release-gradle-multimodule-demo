@@ -8,6 +8,27 @@ module.exports = {
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
         [
+            "semantic-release-replace-plugin",
+            {
+                "replacements": [
+                    {
+                        "files": ["gradle.properties"],
+                        "from": "version=.*",
+                        "to": "version=${nextRelease.version}",
+                        "results": [
+                            {
+                                "file": "gradle.properties",
+                                "hasChanged": true,
+                                "numMatches": 1,
+                                "numReplacements": 1
+                            }
+                        ],
+                        "countMatches": true
+                    }
+                ]
+            }
+        ],
+        [
             "@semantic-release/git",
             {
                 "assets": ["package.json", "CHANGELOG.md"],
