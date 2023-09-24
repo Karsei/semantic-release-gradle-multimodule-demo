@@ -1,7 +1,7 @@
 const MODULE_NAME = process.env.MODULE_NAME;
 
 module.exports = {
-    "branches": "master",
+    "branches": ["master", "develop"],
     "tagFormat": MODULE_NAME + "-${version}",
     "plugins": [
         "@semantic-release/commit-analyzer",
