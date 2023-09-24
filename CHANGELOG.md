@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/compare/test-api-1.0.0...test-api-1.0.1) (2023-09-24)
+
+
+### Bug Fixes
+
+* merged squash commit test ([#8](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/issues/8)) ([753ade2](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/commit/753ade2fcae523c1ef707ce9d460182a7499553e))
+
 # 1.0.0 (2023-09-24)
 
 
