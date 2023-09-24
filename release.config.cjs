@@ -31,7 +31,7 @@ module.exports = {
         [
             "@semantic-release/git",
             {
-                "assets": ["package.json", "CHANGELOG.md"],
+                "assets": ["package.json", "CHANGELOG.md", "gradle.properties"],
                 "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
             }
         ]
