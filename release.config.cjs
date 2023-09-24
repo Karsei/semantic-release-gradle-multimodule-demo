@@ -15,14 +15,14 @@ module.exports = {
                         "files": ["gradle.properties"],
                         "from": "version=.*",
                         "to": "version=${nextRelease.version}",
-                        "results": [
-                            {
-                                "file": "gradle.properties",
-                                "hasChanged": true,
-                                "numMatches": 1,
-                                "numReplacements": 1
-                            }
-                        ],
+                        // "results": [
+                        //     {
+                        //         "file": "gradle.properties",
+                        //         "hasChanged": true,
+                        //         "numMatches": 1,
+                        //         "numReplacements": 1
+                        //     }
+                        // ],
                         "countMatches": true
                     }
                 ]
