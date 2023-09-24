@@ -1,3 +1,18 @@
+## [1.0.2](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/compare/test-api-1.0.1...test-api-1.0.2) (2023-09-24)
+
+
+### Bug Fixes
+
+* added git commit with gradle.properties with semantic-release ([5449731](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/commit/54497317af4dc700524bf95c041b00577d83b53c))
+* deleted validation ([6086a3d](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/commit/6086a3d628465a3fc6cee00222b7743fe0ef084f))
+* Merge pull request [#9](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/issues/9) from Karsei/develop (test) ([54b6a7d](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/commit/54b6a7d75522fbd1d58fed97321a7ccf166ee6ce))
+* test ([1861846](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/commit/18618468f316e8c1dbcbf31d98559c058c5164d1))
+
+
+### Reverts
+
+* rollback ([cc626d6](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/commit/cc626d68eb8b6c6c99c8ef632b9f82cf01096fd2))
+
 ## [1.0.1](https://github.com/Karsei/semantic-release-gradle-multimodule-demo/compare/test-api-1.0.0...test-api-1.0.1) (2023-09-24)
 
 
